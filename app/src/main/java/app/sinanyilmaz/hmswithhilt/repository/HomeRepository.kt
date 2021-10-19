@@ -7,7 +7,10 @@ import com.huawei.hms.kit.awareness.capture.ScreenStatusResponse
 import com.huawei.hms.kit.awareness.capture.WeatherStatusResponse
 import javax.inject.Inject
 
-class HomeRepository @Inject constructor(private val analytics: HiAnalyticsInstance,private val awarenessCaptureClient: CaptureClient) {
+class HomeRepository @Inject constructor(
+    private val analytics: HiAnalyticsInstance,
+    private val awarenessCaptureClient: CaptureClient
+) {
 
     fun getAnalytics(): HiAnalyticsInstance {
         return analytics

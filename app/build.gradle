@@ -64,6 +64,10 @@ dependencies {
     //Analytics Kit
     implementation 'com.huawei.hms:hianalytics:5.0.5.301'
 
+    //ML Kit
+    implementation 'com.huawei.hms:ml-computer-vision-face:2.0.5.300'
+    implementation 'com.huawei.hms:ml-computer-vision-face-shape-point-model:2.0.5.300'
+
     //Navigation Component
     implementation 'androidx.navigation:navigation-fragment-ktx:2.3.2'
     implementation 'androidx.navigation:navigation-ui-ktx:2.3.2'

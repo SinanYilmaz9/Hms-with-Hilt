@@ -20,12 +20,11 @@ class HomeViewModel @ViewModelInject constructor(private val homeRepository: Hom
 
     fun getAwarenessCapture() {
         homeRepository.getAwarenessScreenStatus().addOnCompleteListener {
-            if(it.isSuccessful) {
+            if (it.isSuccessful) {
                 screenStatus.value = it.result.screenStatus
             } else {
-                Log.e("TAG","Screen state failed")
+                Log.e("TAG", "Screen state failed")
             }
         }
     }
-
 }

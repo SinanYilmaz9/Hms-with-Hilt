@@ -1,0 +1,14 @@
+{
+	"client":{
+		"appType":"1",
+		"cp_id":"5190090000026762631",
+		"product_id":"736430079244760133",
+		"client_id":"527050187529532032",
+		"client_secret":"C72B323679792146CA228051F48A2EB2793DE63BBACC9E8324B55CD61CAA37DD",
+		"project_id":"736430079244760133",
+		"app_id":"103572467",
+		"api_key":"CgB6e3x9Q+7RqlhuCIrEnmPl71UVbqeV5mKovVbfEDL6GB71XrGPrRsTH9Cpy5lYBp/rd9ztnUtVs2LqwAiFYnPV",
+		"package_name":"app.sinanyilmaz.hmswithhilt"
+	},
+	"configuration_version":"1.0"
+}
